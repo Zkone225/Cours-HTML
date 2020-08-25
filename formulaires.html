@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="" method="POST">
+       <fieldset>
+           <legend>INFORMATIONS PRINCIPALES</legend>
+           <div class="form-group">
+            <label for="">Nationalité</label>
+         <select name="nationality">
+            <optgroup label="Asie">
+                 <option value="Japon">japon</option>
+                 <option value="Chine">Chine</option>
+                 <option value="Thailande">Thailande</option>
+                 <option value="Iran">Iran</option>
+             </optgroup>
+             <optgroup label="Afrique">
+                <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                <option value="Mali">Mali</option>
+                <option value="Gabon">Gabon</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Egypte">Egypte</option>
+            </optgroup>
+             <optgroup label="Europe">
+                <option value="Italie">Italie</option>
+                <option value="France">France</option>
+                <option value="Espagne">Espagne</option>
+                <option value="Allemagne">Allemagne</option>
+             </optgroup>
+             <optgroup label="Amerique">
+                 <option value="USA">USA</option>
+                 <option value="Mexique">Mexique</option>
+                 <option value="Bresil">Bresil</option>
+                 <option value="Cuba"></option>
+                 <option value=""></option>
+             </optgroup>
+         </select>
+           <br>
+
+        </div>
+        <label for="Nom">Nom</label>
+        <input type="text" name="Nom" id="Nom" required ><br/>
+        <label for="Prenom">Prenom</label>
+        <input type="text" name="Prenom" id="Prenom" required> <br/>
+        <label for="Age">Age</label>
+        <input type="Number" name="Age" id="Age" required> <br/>
+        <label for="Email">Email</label>
+        <input type="mail" name="Email" id="Email" required> <br/>
+
+       </fieldset>
+   </form>
+
+   <form action="" method="POST">
+        <fieldset>
+           <legend>HOBBIES</legend>
+           <p>Qu'aimez-vous faire pour passer le temps</p><br/>
+         <input type="radio" name="HOBBIES" > La lecture  <br/>
+         <input type="radio" name="HOBBIES" > Le foot <br/>
+         <input type="radio" name="HOBBIES" > Le gaming <br/>
+              
+        </fieldset>
+        <form action=""method="POST">
+            <fieldset>
+                <legend>Plats préférés</legend>
+                <input type="checbox" name="Plats preférés"> pizza
+            </fieldset>
+        </form>
+   </form>
+
+</body>
+</html>

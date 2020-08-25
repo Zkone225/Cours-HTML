@@ -52,35 +52,82 @@
 
             </form>-->
 
+
             <form action="backend.php" method="post">
+
+                <label for="Nom">Nom</label>
+                <input type="text" name="Nom" placeholder="Entrez vore nom" id="Nom" value="" required>  
+                <br/>
+    
+                <label for="Prenom">Prénom</label>
+                <input type="text" name="Prenom" placeholder="Entrez votre prénom" id="Prenom" value="" required>
+                <br/>
+    
+                <label for="Age">Age</label>
+                <input type="Number" Age="Age" placeholder="Entrez votre age" id="Age" required>
+                <br/>
+
+                <label for="sexe">Sexe</label>
+                <select name="sexe" id="">
+                    <optgroup>
+                        <option value="Homme">Homme</option>
+                        <option value="Femme">Femme</option>
+                        <option value="Autre">Autre</option>
+                    </optgroup>
+                </select>
+                <br>
+                
+
+                <label for="Telephone">Telephone</label>
+            <input type="tel" Telephone="Telephone" placeholder="Entrez votre téléphone" id="Telephone" required>
+            <br>
+
+            <label for="Adresse">Adresse</label>
+            <input type="address" Adresse="adresse" placeholder="Entrez votre adresse " id="Adresse" value="" required>
+            <br>
+
+            <label for="email">Adresse email</label>
+            <input type="email" email="email" placeholder="Entrez votre adresse email" id="email" required>
+            <br>
+
+            <label for="Password">Password</label>
+            <input type="password" password="password" placeholder="Entrez votre mot de passe" id="Password" required>
+            <br> 
+        
                 <div class="form-group">
                     <label for="">Selectionnez votre nationalité</label>
                  <select name="nationality">
                     <optgroup label="Asie">
                          <option value="Japon">japon</option>
-                         <option value="Chine"></option>
-                         <option value="Thailande"></option>
-                         <option value="Iran"></option>
+                         <option value="Chine">Chine</option>
+                         <option value="Thailande">Thailande</option>
+                         <option value="Iran">Iran</option>
                      </optgroup>
                      <optgroup label="Afrique">
-                        <option value="Cote d'Ivoire"></option>
-                        <option value="Mali"></option>
-                        <option value="Gabon"></option>
+                        <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                        <option value="Mali">Mali</option>
+                        <option value="Gabon">Gabon</option>
                     </optgroup>
-                    <optgroup label="Europe">
-                        <option value="Italie"></option>
-                        <option value="France"></option>
-                        <option value="Espagne"></option>
-                        <option value="Allemagne"></option>
-                    </optgroup>
-                </select>
-             
+                     <optgroup label="Europe">
+                        <option value="Italie">Italie</option>
+                        <option value="France">France</option>
+                        <option value="Espagne">Espagne</option>
+                        <option value="Allemagne">Allemagne</option>
+                     </optgroup>
+                 </select>
+                   <br>
 
-             </div>
+                </div>
+             <br>
+             <br>
 
+             <label for="Description">Description</label>
+            <textarea name="Description" id="Description" cols="20" rows="8" placeholder="Decrivez-vous en quelques mots" id="Description"></textarea>
+            <br>
 
-            
-            </form>
+            <input type="submit">
+
+>    </form>
 
     </body>
 
