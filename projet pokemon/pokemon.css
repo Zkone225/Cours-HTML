@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+}
+
+header{
+    
+background-color: blue;
+
+}
+header *{
+    color: white;
+}
+header input[type=checkbox] {
+display: none; /* faire disparaitre l'input du checkbox */
+
+}
+header label{
+display: flex;
+justify-content:flex-start;
+align-items:center;
+}
+header .nav{
+    display: none;
+}
+header input[type=checkbox] + .nav{
+    display: flex;
+}
