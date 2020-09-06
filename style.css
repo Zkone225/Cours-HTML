@@ -1,13 +1,13 @@
-img{
+/* img{
     border: 2 px solid black; border-radius: 100px; width: 50 px;
-}
+} */
 
-body{
+body{margin-top: 160px; background-color: skyblue;
     background-image: url(../images/css.jpg); background-color: rgba(rgba(43, 255, 0, 0.397), green, rgba(0, 255, 221, 0.527), alpha); 
 } 
 #lorem{
-    color: darkblue; text-align: justify; font-family: 'Dancing Script', cursive; text-transform: capitalize;
-    text-indent: 34px;
+    color: white; text-align: justify; font-family: 'Dancing Script', cursive; text-transform: capitalize;
+    text-indent: 34px
 }
 
 .cup{
@@ -19,14 +19,14 @@ body{
 #cv{
     text-decoration: underline;
 } 
-/* main{
+ main{
    background-color: rgba(255, 245, 238, 0.527); margin: 50px;
 }
-header{
+/* header{
     background-color: rgba(255, 245, 238, 0.445);
-} */
+}  */
 
-/* .div1{
+ .div1{
     position: fixed;
 }
 .div2{
@@ -34,23 +34,23 @@ header{
 }
 .div3{
     position: absolute;
-} */
-/* header{
+}
+header{
     background: rgb(153, 71, 71);
     color: seashell;
     position: fixed;
     width: 100%;
     top: 0;
-    padding: left 100; */
+    padding: left 100;
     
 }
- /* *{
+  *{
     padding: 0;
-    margin: 0;  */
+    margin: 0;  
 
 /* body{margin-top: 160px; background-color: skyblue;
     
-}
+} */
 section{
 display: flex;
 flex-direction: row;
@@ -77,4 +77,4 @@ justify-content: space-between;
 }
 .div7{
     background-color: magenta;
-} */
+} 
